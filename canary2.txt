@@ -1,0 +1,19 @@
+(base) 16:21:00: kubectl get pods --all-namespaces
+NAMESPACE     NAME                         READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-dfrfm               1/1     Running   0          25h
+kube-system   aws-node-rww5g               1/1     Running   0          25h
+kube-system   coredns-f47955f89-6x6kx      1/1     Running   0          25h
+kube-system   coredns-f47955f89-jsmzb      1/1     Running   0          25h
+kube-system   kube-proxy-l6pcb             1/1     Running   0          25h
+kube-system   kube-proxy-xrfpp             1/1     Running   0          25h
+udacity       blue-8475cbdf46-2fqwt        1/1     Running   0          25h
+udacity       blue-8475cbdf46-fhpsw        1/1     Running   0          59m
+udacity       blue-8475cbdf46-vrwxd        1/1     Running   0          25h
+udacity       canary-v1-64598c676f-fqll2   1/1     Running   0          4m57s
+udacity       canary-v1-64598c676f-n52dl   1/1     Running   0          4m57s
+udacity       canary-v1-64598c676f-tntwv   1/1     Running   0          4m57s
+udacity       canary-v2-5dc9c56687-h84jk   1/1     Running   0          2m24s
+udacity       canary-v2-5dc9c56687-nlplt   1/1     Running   0          4m29s
+udacity       canary-v2-5dc9c56687-qtj6s   1/1     Running   0          2m37s
+udacity       debug                        1/1     Running   0          100m
+

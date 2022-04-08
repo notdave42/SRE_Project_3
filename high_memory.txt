@@ -1,0 +1,16 @@
+(base) 16:38:54: kubectl top pod -n udacity
+NAME                          CPU(cores)   MEMORY(bytes)   
+blue-684fcb458-5csx4          1m           3Mi             
+blue-684fcb458-gp2n8          0m           3Mi             
+blue-684fcb458-sx9b5          1m           3Mi             
+canary-v2-5dc9c56687-bs5gg    0m           3Mi             
+canary-v2-5dc9c56687-h6txv    0m           3Mi             
+canary-v2-5dc9c56687-jdmvj    0m           3Mi             
+canary-v2-5dc9c56687-xtjwb    0m           3Mi             
+green-5cdd96c9b4-dqfvv        1m           3Mi             
+green-5cdd96c9b4-trz64        1m           3Mi             
+green-5cdd96c9b4-zk6w7        0m           3Mi             
+hello-world-cfd995bcd-bdr2n   6m           19Mi   
+
+hello-world-cfd995bcd-bdr2n is using the most memory
+
